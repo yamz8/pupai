@@ -34,7 +34,7 @@ And more:
 
 ## Documentation
 
-https://typicode.github.io/husky
+https://yamz8.github.io/pupai
 
 **Important** Upgrading from v4 to v9 requires migrating previous config, please see the docs.
 
