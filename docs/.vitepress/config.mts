@@ -2,8 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Husky",
-  description: "Git hooks made easy",
+  title: "PupAI",
+  description: "AI-first Git hooks",
   head: [
     [
       "link",
@@ -13,12 +13,12 @@ export default defineConfig({
       },
     ],
   ],
-  base: "/husky/",
+  base: "/pupai/",
   themeConfig: {
     // outline: [2, 3],
     socialLinks: [
-      { icon: "github", link: "https://github.com/typicode/husky" },
-      { icon: "twitter", link: "https://x.com/typicode" },
+      { icon: "github", link: "https://github.com/yamz8/pupai" },
+      { icon: "twitter", link: "https://x.com/yamz8" },
     ],
     // carbonAds: {
     //   code: 'CWYDP53L',
@@ -31,7 +31,7 @@ export default defineConfig({
       { text: "Troubleshoot", link: "/troubleshoot" },
       { text: "Migrate from v4", link: "/migrate-from-v4" },
     ],
-    nav: [{ text: "Sponsor", link: "https://github.com/sponsors/typicode" }],
+    nav: [{ text: "Sponsor", link: "https://github.com/sponsors/yamz8" }],
   },
   locales: {
     root: {
@@ -64,7 +64,7 @@ export default defineConfig({
             items: [
               {
                 text: "更新日志",
-                link: "https://github.com/typicode/husky/releases/tag/v9.0.1",
+                link: "https://github.com/yamz8/pupai/releases/tag/v9.0.1",
               },
             ],
           },
@@ -92,7 +92,7 @@ export default defineConfig({
           label: "Содержание страницы",
         },
         nav: [
-          { text: "Sponsor", link: "https://github.com/sponsors/typicode" },
+          { text: "Sponsor", link: "https://github.com/sponsors/yamz8" },
         ],
       },
     },
@@ -117,7 +117,7 @@ export default defineConfig({
           label: "Contenido de la página",
         },
         nav: [
-          { text: "Sponsor", link: "https://github.com/sponsors/typicode" },
+          { text: "Sponsor", link: "https://github.com/sponsors/yamz8" },
         ],
       },
     },
